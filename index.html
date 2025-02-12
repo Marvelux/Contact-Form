@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <form>
+        
+        <div class="container">
+            <p id="result"></p>
+            <h1>Contact Us</h1>
+           
+            <div class="names">
+                <div class="name-one">
+                    <label>First Name *</label>
+                    <input type="text" id="firstName"  required>
+                </div>
+
+                <div class="name-two">
+                    <label>Last Name *</label>
+                    <input type="text" id="lastName" required>
+                </div>
+            </div>
+    
+            <div class="email">
+                <label>Email Address *</label>
+                <input type="email" id="eMail" required>
+            </div>
+    
+            <div class="query">
+                <label>Query Type *</label>
+                
+                <div class="options">
+                    <div class="general">
+                        <input type="radio" id="query" required>
+                        <label>General</label>
+                    </div>
+                
+                   <div class="support">
+                    <input type="radio" id="query"  required>
+                    <label>Support Request</label>
+
+                   </div>      
+                </div>
+            </div>
+
+            <div class="message">
+                <label>Message *</label>
+                <textarea id="message"  required></textarea>
+            </div>
+
+            <div class="consent">
+                <input type="checkbox" id="consent"  required>
+                <label>I consent to being contacted by the team *</label>
+            </div>
+
+            <div class="submit">
+                <button type="button">Submit</button>
+            </div>
+
+        </div>
+   
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+

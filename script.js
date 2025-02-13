@@ -9,7 +9,7 @@ const result = document.querySelector("#result");
 
 
 button.addEventListener('click', () => { 
-    result.innerHTML = `Congratulations!!! Your registered name is ${firstName.value} ${lastName.value}. My email is ${email.value}. ${message.value}`;
+    result.innerHTML = `Congratulations!!! Your registered name is ${firstName.value} ${lastName.value}. Your email is ${email.value}. ${message.value}`;
   });
   
   result.style.color = 'green';

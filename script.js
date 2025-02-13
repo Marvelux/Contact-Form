@@ -1,6 +1,7 @@
 
 const firstName = document.getElementById("firstName");
 const lastName = document.getElementById("lastName");
+const email = document.getElementById("email");
 const message = document.getElementById("message");
 const button = document.querySelector("button");
 const result = document.querySelector("#result");
@@ -8,7 +9,7 @@ const result = document.querySelector("#result");
 
 
 button.addEventListener('click', () => { 
-    result.innerHTML = `Congratulations!!! Your registered name is ${firstName.value} ${lastName.value}. ${message.value}`;
+    result.innerHTML = `Congratulations!!! Your registered name is ${firstName.value} ${lastName.value}. My email is ${email.value}. ${message.value}`;
   });
   
   result.style.color = 'green';

@@ -71,6 +71,7 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 8px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 
@@ -118,6 +119,7 @@ input[type="radio"] {
     border-radius: 50%;
     background-color: #fff;
     padding: 50px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
   }
 
 .message{
@@ -139,6 +141,7 @@ textarea{
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 8px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .consent {
@@ -176,15 +179,53 @@ input[type="checkbox"] {
     font-size: 9px;
     border-radius: 5px;
     cursor: pointer;
-
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .submit button:hover {
-    background-color: #085c44;    
+    background-color: #085c44;
+    transform: scale(1.01);
 }
 
+@media only screen and (max-width: 375px) {
+    .container{
+        max-width: 100%;
+        height: auto;
+        padding: 20px 20px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff;
+        border-radius: 8px;
+        width: 250px;
+    }
+    .names{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        row-gap: 10px;
+    }
 
-
+    .options {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    
+  }
+  
+  
   
 
   

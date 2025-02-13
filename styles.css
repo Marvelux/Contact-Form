@@ -150,7 +150,7 @@ textarea{
 }
 
 .consent label{
-    font-size: 7px;
+    font-size: 8px;
 }
 
 input[type="checkbox"] {
@@ -173,7 +173,7 @@ input[type="checkbox"] {
     border: none;
     background-color: #108b6b;
     color: white;
-    font-size: 8px;
+    font-size: 9px;
     border-radius: 5px;
     cursor: pointer;
 
